@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+ul{
+    list-style-type: style none;
+}
+
+button{
+    font: size 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 10px grey;
+    color: white;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header .logo{
+    margin: 0;
+    padding: 20px 25px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 5px 10px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    background-color: blueviolet;
+}
+
+#hero{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/foto.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius: 8px;
+}
+
+#sobre-mi.container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+#conocimientos{
+    text-align: center;
+    color:white;
+}
+
+#conocimientos .container{
+    background-color: rgb(35,35,35);
+    padding: 80px 0px;
+}
+
+#conocimientos p{
+    text-align: center;
+    padding: 8px;
+}
+
+#conocimientos h1{
+    margin-top: 0;
+}
+
+#conocimientos .carta{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/laqueva.jpg');
+}
+
+.carta:last-child{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/laqueva.jpg');
+}
+
+#educacion .container{
+    padding: 150px;
+    text-align: center;
+}
+
+li {
+    margin: 16px; 
+}
